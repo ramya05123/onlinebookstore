@@ -9,3 +9,17 @@ pipeline {
          	    } 
         }
 }
+
+
+
+pipeline {  
+    agent any  
+        stages {  
+       	    stage("srinfotech build") {  
+           	    steps {  
+              	    echo "cloning repository" 
+              	    echo "repo cloned successfully"  
+              	    }  
+         	    } 
+        }
+}
